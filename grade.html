@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        div{
+            text-align: center;
+            border: 10px solid black;
+            border-radius: 10px;
+            width: 1600px;
+            height: 670px;
+            padding: 20px;
+            margin:auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        body{
+            background-image: url("https://th.bing.com/th/id/OIP.5FOHoBxXnNCC5Q4QofC1_AHaF1?pid=ImgDet&w=474&h=373&rs=1");
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+      <h1><i><u> STUDENT GRADE &PERCENTAGE</i></u></h1>
+<script>
+    
+        var num1=parseInt(prompt("enter Tamilmark1"));
+        var num2=parseInt(prompt("enter Englishmark2"));
+        var num3=parseInt(prompt("enter Mathsmark3"));
+        var num4=parseInt(prompt("enter biologymark4"));
+        var num5=parseInt(prompt("enter zoologymark5"));
+
+        var sid=110914;
+        
+        var isname="Jayashree";
+       
+        var total=num1+num2+num3+num4+num5;
+       
+        var percentage=(total*100)/500;
+
+
+        document.write("sid=:"+sid+"<br>");
+        document.write("isname:"+isname+"<br>");
+        document.write("total=:"+total+"<br>");
+        document.write("percentage=:"+percentage+"<br>");
+
+if(percentage >90)
+{
+    document.write("Grade:A");
+}
+else if(percentage >80 && percentage+"<br>")
+    {
+        document.write("Grade:B");
+    }
+   else if(percentage >70 && percentage <=80)
+        {
+            document.write("Grade:C");
+        }
+    else if(percentage >60 && percentage <=70)
+            {
+                document.write("Grade:d");
+            }
+       else if(percentage >50 && pecentage <=60)
+                {
+                    document.write("Grade:E");
+                }
+
+</script>
+</body>
+</html>
